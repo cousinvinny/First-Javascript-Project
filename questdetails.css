@@ -1,0 +1,39 @@
+.quest-details{
+    border-style:solid;
+    height:95vh;
+    font-family: friz-quadrata;
+}
+
+.quest-title{
+    margin:0.5vw;
+    font-size: 1.5vw;
+}
+
+.quest-list-title{
+    margin:0.5vw;
+    font-size: 1.5vw;
+}
+
+.quest-summary-container{
+    margin:0.5vw;
+    height:60vh;
+    border-style:solid;
+}
+
+.quest-summary-title{
+    margin:0.2vw;
+    font-size: 1vw;
+}
+
+.rewards-summary-container{
+    margin:0.5vw;
+    height:18vh;
+    border-style:solid;
+}
+
+.accept-decline-container{
+    margin:0.5vw;
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+}

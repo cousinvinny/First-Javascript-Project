@@ -3,17 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="applayout.css" type="text/css">
+    <link rel="stylesheet" href="questdetails.css" type="text/css">
+    <link rel="stylesheet" href="questlist.css" type="text/css">
     <title>To Do List</title>
 </head>
 
 <body>
     <div class="grid-container-whole-page">
         <main>
-            <div class="quest-details">Quest Details</div>
+            <div class="quest-details">
+                <div class="quest-title" id="quest-title">Quest Title</div>
+                <div class="quest-summary-container">
+                    <div class="quest-summary-title">Quest Summary</div>
+                </div>
+                <div class="rewards-summary-container">
+                    <div class="rewards-title"></div>
+                </div>
+                <div class="accept-decline-container">
+                    <div class="accept">item1</div>
+                    <div class="decline">item2</div>
+                </div>
+            </div>
         </main>
         <aside>
-            <div class="quest-list">Quests</div>
+            <div class="quest-list">
+                <div class="quest-list-title">Quests</div>
+            </div>
         </aside>
     </div>
 </body>
