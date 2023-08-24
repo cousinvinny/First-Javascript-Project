@@ -18,6 +18,8 @@
     margin:0.5vw;
     height:60vh;
     border-style:solid;
+    display:flex;
+    flex-direction: column;
 }
 
 .quest-summary-title{
@@ -25,15 +27,9 @@
     font-size: 1vw;
 }
 
-.rewards-summary-container{
-    margin:0.5vw;
-    height:18vh;
-    border-style:solid;
-}
-
-.accept-decline-container{
-    margin:0.5vw;
-    display:flex;
-    flex-direction: row;
-    align-items: stretch;
+#add-input-button{
+    background-color: red;
+    color:gold;
+    width:2%;
+    margin-left:0.5%;
 }

@@ -1,0 +1,45 @@
+@font-face{
+    font-family: friz-quadrata;
+    src:url(fonts/friz-quadrata-regular-os-5870333951e7c.ttf)
+}
+
+@font-face {
+    font-family: friz-quadrata-bold;
+    src: url(fonts/friz-quadrata-bold-italic-os-5870341205e0f.ttf);
+}
+
+
+.rewards-summary-container {
+    margin: 0.5vw;
+    height: 18vh;
+    border-style: solid;
+}
+
+.rewards-summary-container {
+    margin: 0.5vw;
+    height: 18vh;
+    border-style: solid;
+}
+
+.accept-decline-container {
+    margin: 0.5vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accept {
+    margin-left: 2%;
+    font-family: friz-quadrata;
+    background-color: red;
+    color:yellow;
+}
+
+.decline {
+    margin-right: 2%;
+    font-family: friz-quadrata;
+    background-color: red;
+    color:yellow;
+}

@@ -8,6 +8,18 @@
     src: url(fonts/friz-quadrata-bold-italic-os-5870341205e0f.ttf);
 }
 
+@media screen and (max-width: 1370px) {
+    /* Adjust styles for smaller screens */
+    .grid-container-whole-page {
+        min-width: 1370px;
+        min-height: 750px;
+    }
+}
+
+body{
+    overflow: hidden;
+}
+
 .grid-container-whole-page{
     display: grid;
     grid-template-columns: 69% 30%;
