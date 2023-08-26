@@ -1,35 +1,53 @@
-.quest-details{
-    border-style:solid;
-    height:95vh;
+.quest-details {
+    border-style: solid;
+    height: 95vh;
     font-family: friz-quadrata;
 }
 
-.quest-title{
-    margin:0.5vw;
+.quest-title {
+    margin: 0.5vw;
     font-size: 1.5vw;
 }
 
-.quest-list-title{
-    margin:0.5vw;
+.quest-list-title {
+    margin: 0.5vw;
     font-size: 1.5vw;
 }
 
-.quest-summary-container{
-    margin:0.5vw;
-    height:60vh;
-    border-style:solid;
+.quest-summary-container {
+    margin: 0.5vw;
+    height: 60vh;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.quest-summary-title {
+    margin: 0.2vw;
+    font-size: 1vw;
+}
+
+#additional-input-container{
     display:flex;
     flex-direction: column;
 }
 
-.quest-summary-title{
-    margin:0.2vw;
-    font-size: 1vw;
+#add-objective-button {
+    background-color: red;
+    color: gold;
+    width: 2%;
+    margin-left: 0.5%;
+    
 }
 
-#add-input-button{
+#delete-objective-button{
     background-color: red;
-    color:gold;
-    width:2%;
-    margin-left:0.5%;
+    color: gold;
+    width: 2%;
+    margin-left: 0.5%;
+}
+
+#quest-objective{
+    width: 40%;
+    margin-bottom: 0.5%;
 }

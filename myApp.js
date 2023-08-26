@@ -18,6 +18,14 @@ const additionalInputContainer = document.getElementById('additional-input-conta
 addObjectiveButton.addEventListener('click', function () {
     const newInput = document.createElement('input');
     newInput.type = 'text';
-    newInput.placeholder = 'Additional Input';
+    newInput.placeholder = 'Quest Objective';
+    newInput.style.marginLeft = '0.7%';
+    newInput.id = "quest-objective";
+    addObjectiveButton.remove();
     additionalInputContainer.appendChild(newInput);
+    const deleteObjectiveButton = document.createElement('button');
+    deleteObjectiveButton.id = "delete-objective-button";
+    deleteObjectiveButton.innerHTML = '-';
+    additionalInputContainer.appendChild(deleteObjectiveButton);
+    additionalInputContainer.appendChild(addObjectiveButton);
 });
