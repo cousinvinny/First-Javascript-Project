@@ -27,9 +27,19 @@
     font-size: 1vw;
 }
 
+#quest-summary-input{
+    max-width:100%;
+}
+
 #additional-input-container{
     display:flex;
     flex-direction: column;
+}
+
+#input-delete-container{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1%;
 }
 
 #add-objective-button {
